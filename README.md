@@ -3,7 +3,7 @@
 ## Learning Goals
 
 - Apply concepts learned about `Hash`es and `Array`es
-- Create an object oriented program
+- Create an object-oriented program
 - Design interactive command line prompts
 - Construct game logic using conditionals
 
@@ -24,8 +24,8 @@ reach 10000 points. Each turn, players roll a set of six dice for the chance to
 collect points and must choose between multiple options: play it safe or risk
 everything and potentially win big!
 
-In this lab, you are tasked with building the game logic for Greed using object
-oriented Ruby. You will need to apply many concepts discussed in previous
+In this lab, you are tasked with building the game logic for Greed using
+object-oriented Ruby. You will need to apply many concepts discussed in previous
 lessons, including `Array` and `Hash` creation, conditionals and loops.
 
 ## Instructions
@@ -59,7 +59,7 @@ testing your solution.
 
 ## Rules of Greed
 
-Greed requires at least 2 players and 6 six sided dice. Players take turns
+Greed requires at least 2 players and 6 six-sided dice. Players take turns
 rolling dice following a set of rules.
 
 On a player's turn, the player starts by rolling all six dice.
@@ -77,7 +77,7 @@ On a player's turn, the player starts by rolling all six dice.
     - Four of a kind for 1 is worth 2000 points
     - Five of a kind for 1 is worth 4000 points
     - Six of a kind for 1 is worth 8000 points
-  - Three pairs of numbers is worth 500 points
+  - Three pairs of numbers are worth 500 points
   - A five dice straight (1,2,3,4,5 or 2,3,4,5,6) is worth 1000 points
   - A six dice straight is worth 1500 points
 
